@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Admin/IdeaProjects/ECommerceProject/src/test/java/testCases">
+        <classes>
+            <class name="testCases.LoginTest">
+                <methods>
+                    <include name="verifyLogin"/>
+                </methods>
+            </class>
+            <class name="testCases.PaymentTest">
+                <methods>
+                    <include name="placeOrder"/>
+                </methods>
+            </class>
+            <class name="testCases.SearchTest">
+                <methods>
+                    <include name="searchProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
